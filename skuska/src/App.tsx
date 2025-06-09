@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef, useEffect, /*useState*/ } from "react";
 import eatSoundFile from "./eat.ogg";
 /*import collisionSoundFile from "./collision.ogg";
 import hohohoSoundFile from "./hohoho.mp3";*/
@@ -125,7 +125,7 @@ const App: React.FC = () => {
       <h1>Multiplayer Worm Game</h1>
       <div className="room-info">
         <div className="room-title">
-          Players in Room: <span className="room-id">{roomId}</span>
+          Players in Room: <span className="room-id">{/*roomId*/}</span>
         </div>
         {/* doplnit */}
       </div>
