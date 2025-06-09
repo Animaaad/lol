@@ -119,15 +119,15 @@ const App: React.FC = () => {
       </div>
     );
   }
-
+/*<span className="room-id">{roomId}</span>*/
   return (
     <div className="app-center">
       <h1>Multiplayer Worm Game</h1>
       <div className="room-info">
         <div className="room-title">
-          Players in Room: <span className="room-id">{/*roomId*/}</span>
+          Players in Room: 
         </div>
-        {/* doplnit */}
+        
       </div>
       <canvas
         ref={canvasRef}
